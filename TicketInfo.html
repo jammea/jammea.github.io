@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets | Sea and Sounds Festival</title>
+    <link rel="stylesheet" href="TicketStyle.css">
+    <script defer src="Tickets.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Sea and Sounds logo.png" alt="Sea & Sounds Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_page.html">About</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="TicketInfo.html">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="tickets-container">
+        <h1 class="tickets-heading">Get Your Tickets</h1>
+        <p class="tickets-intro">Secure your spot at the Sea & Sounds Festival! Choose your ticket type and get ready for an unforgettable experience.</p>
+
+        <form id="ticket-form">
+            <label for="ticket-type">🎟️ Select Ticket Type:</label>
+            <select id="ticket-type" name="ticket-type">
+                <option value="99">General Admission - $99</option>
+                <option value="199">VIP Experience - $199</option>
+                <option value="249">Family Pass (2 Adults + 2 Kids) - $249</option>
+                <option value="custom">Group Package (Contact us for pricing)</option>
+            </select>
+
+            <label for="ticket-quantity">🔢 Number of Tickets:</label>
+            <input type="number" id="ticket-quantity" name="ticket-quantity" value="1" min="1">
+
+            <h2>👤 Your Information</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <h2>💳 Payment Information</h2>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="**** **** **** ****" required>
+
+            <label for="expiry">Expiry Date:</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+            <h3>Total: <span id="total-price">$99</span></h3>
+
+            <button type="submit" class="buy-tickets-btn">Complete Purchase</button>
+        </form>
+
+        <p class="success-message" id="success-message">✅ Thank you for your purchase! A confirmation email has been sent.</p>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <p>Author: James Meades</p>
+        <p>© 2025 Sea and Sounds - All Rights Reserved</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+        <p>Contact: <a href="mailto:info@seaandsounds.com">info@seaandsounds.com</a></p>
+    </footer>
+
+</body>
+</html>
+    
