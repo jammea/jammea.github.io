@@ -1,0 +1,189 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f1f2c;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #1b3a4b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    height: 120px;
+    object-fit: contain;
+}
+
+.site-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #e1e8e8;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e1e8e8;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00a8a8;
+}
+/* About section */
+.about-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #1b3a4b;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-heading {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Festival highlights */
+.festival-highlights {
+    margin-top: 30px;
+    color: white;
+}
+
+.festival-highlights h2 {
+    font-size: 28px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.festival-highlights ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.festival-highlights li {
+    font-size: 18px;
+    margin: 8px 0;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venue-info {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1b3a4b;
+    border-radius: 10px;
+}
+
+.venue-info h2 {
+    font-size: 36px;
+    color: white;
+}
+
+.venue-info p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Venue website link */
+.venue-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.venue-link:hover {
+    background-color: #005bb5;
+}
+
+.dates h1 {
+    margin-top: 100px;
+    font-size: 36px;
+    color:white
+}
+
+.dates p {
+    margin-top: 50px;
+    font-size: 20px;
+    color:white
+ 
+}
+
+.what-to-expect h1 {
+    margin-top: 120px;
+    font-size: 36px;
+    color: white;
+}
+
+.what-to-expect li {
+    margin-top: 50px;
+    color: white;
+}
+
+.footer {
+    margin-top: 200px;
+    padding: 20px;
+    background: #1b3a4b;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #e1e8e8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    border: 0;
+    height: 1px;
+    background: #e1e8e8;
+    margin-bottom: 10px;
+}
